@@ -10,62 +10,329 @@
 Pruebas de Hipótesis}
 \author{
 Integrantes: \\ 
-1. [Nombre] \\ 
-2. [Nombre] \\ 
-3. [Nombre]}
-\date{}
+1. Juan David Mena Gamboa \\ 
+2. Luis Angel Bolaño Lopez \\ 
+3. Heyner}
+\date{\today}
 
 \begin{document}
 \maketitle
 
 \section*{Ejercicio 1: Prueba de hipótesis para la media de una muestra con varianza conocida}
 \begin{itemize}
-    \item \textit{Planteamiento del problema (hipótesis de trabajo):}
-    \item Hipótesis: \quad $H_{0}:$ \hspace{2cm} $H_{1}:$
-    \item Nivel de significancia:
-    \item Estadístico de Prueba:
+    \item \textit{Planteamiento del problema:} Se desea evaluar si el ahorro promedio por criar animales en la población difiere significativamente de 100,000 pesos.
+    \item Hipótesis: \quad $H_0: \mu = 100,000$ \hspace{2cm} $H_1: \mu \neq 100,000$
+    \item Nivel de significancia: $\alpha = 0.05$
+    \item Estadístico de Prueba: Z
 \end{itemize}
 
 \begin{tabular}{|m{7cm}|m{7cm}|}
 \hline
-\textbf{Estadístico Empleado} &  \\ \hline
-\textbf{Fórmula del estadístico} &  \\ \hline
+\textbf{Estadístico Empleado} & Z para media con varianza conocida \\ \hline
+\textbf{Fórmula del estadístico} & $Z = \frac{\bar{X} - \mu_0}{\sigma/\sqrt{n}}$ \\ \hline
 \textbf{Nombre Parámetro} & \textbf{Valor} \\ \hline
- &  \\ \hline
- &  \\ \hline
- &  \\ \hline
- &  \\ \hline
-Valor Estadístico &  \\ \hline
-Valor P &  \\ \hline
+Media poblacional bajo $H_0$ ($\mu_0$) & 100,000 \\ \hline
+Desviación estándar poblacional ($\sigma$) & 500,000 \\ \hline
+Tamaño de muestra (n) & 4,080 \\ \hline
+Media muestral ($\bar{X}$) & 159,471.37 \\ \hline
+Valor Estadístico & 7.597 \\ \hline
+Valor P & $< 0.001$ \\ \hline
 \end{tabular}
 
 \begin{itemize}
-    \item Regla de decisión:
-    \item Decisión:
-    \item Conclusión:
+    \item Regla de decisión: Rechazar $H_0$ si $|Z| > 1.96$ o si p-valor $< 0.05$
+    \item Decisión: Rechazar $H_0$
+    \item Conclusión: Existe evidencia estadística suficiente para concluir que el ahorro promedio por criar animales en la población difiere significativamente de 100,000 pesos. El ahorro promedio observado (159,471.37 pesos) es significativamente mayor al valor hipotético.
 \end{itemize}
 
-% ----------- Copiar este bloque y cambiar el título para los demás ejercicios ------------ %
-
 \section*{Ejercicio 2: Prueba de hipótesis para la proporción de una muestra}
-% Aquí copias el mismo bloque de itemize + tabla
+\begin{itemize}
+    \item \textit{Planteamiento del problema:} Se desea evaluar si la proporción de personas que asistieron a reuniones familiares difiere del 50\%.
+    \item Hipótesis: \quad $H_{0}: p = 0.5$ \hspace{2cm} $H_{1}: p \neq 0.5$
+    \item Nivel de significancia: $\alpha = 0.05$
+    \item Estadístico de Prueba: Z
+\end{itemize}
+
+\begin{tabular}{|m{7cm}|m{7cm}|}
+\hline
+\textbf{Estadístico Empleado} & Z para proporción \\ \hline
+\textbf{Fórmula del estadístico} & $Z = \frac{\hat{p} - p_0}{\sqrt{p_0(1-p_0)/n}}$ \\ \hline
+\textbf{Nombre Parámetro} & \textbf{Valor} \\ \hline
+Proporción bajo $H_0$ ($p_0$) & 0.5 \\ \hline
+Tamaño de muestra (n) & 166,341 \\ \hline
+Proporción muestral ($\hat{p}$) & 0.0175 \\ \hline
+Error estándar (SE) & 0.0012 \\ \hline
+Valor Estadístico & -393.54 \\ \hline
+Valor P & $< 0.001$ \\ \hline
+\end{tabular}
+
+\begin{itemize}
+    \item Regla de decisión: Rechazar $H_0$ si $|Z| > 1.96$ o si p-valor $< 0.05$
+    \item Decisión: Rechazar $H_0$
+    \item Conclusión: Existe evidencia estadística suficiente para concluir que la proporción de personas que asistieron a reuniones familiares difiere significativamente del 50\%. La proporción observada (1.75\%) es significativamente menor al valor hipotético.
+\end{itemize}
 
 \section*{Ejercicio 3: Prueba de hipótesis para la media de una muestra con varianza desconocida}
+\begin{itemize}
+    \item \textit{Planteamiento del problema:} Se desea evaluar si el valor promedio mensual por prácticas o pasantías difiere de 200,000 pesos.
+    \item Hipótesis: \quad $H_{0}: \mu = 200,000$ \hspace{2cm} $H_{1}: \mu \neq 200,000$
+    \item Nivel de significancia: $\alpha = 0.05$
+    \item Estadístico de Prueba: t
+\end{itemize}
+
+\begin{tabular}{|m{7cm}|m{7cm}|}
+\hline
+\textbf{Estadístico Empleado} & t para media con varianza desconocida \\ \hline
+\textbf{Fórmula del estadístico} & $t = \frac{\bar{X} - \mu_0}{s/\sqrt{n}}$ \\ \hline
+\textbf{Nombre Parámetro} & \textbf{Valor} \\ \hline
+Media poblacional bajo $H_0$ ($\mu_0$) & 200,000 \\ \hline
+Tamaño de muestra (n) & 336 \\ \hline
+Grados de libertad (df) & 335 \\ \hline
+Media muestral ($\bar{X}$) & 998,708.33 \\ \hline
+Desviación estándar muestral (s) & 621,977.40 \\ \hline
+Valor Estadístico & 23.539 \\ \hline
+Valor P & $< 0.001$ \\ \hline
+\end{tabular}
+
+\begin{itemize}
+    \item Regla de decisión: Rechazar $H_0$ si $|t| > 1.967$ o si p-valor $< 0.05$
+    \item Decisión: Rechazar $H_0$
+    \item Conclusión: Existe evidencia estadística suficiente para concluir que el valor promedio mensual por prácticas difiere significativamente de 200,000 pesos. El valor promedio observado (998,708.33 pesos) es significativamente mayor al valor hipotético.
+\end{itemize}
 
 \section*{Ejercicio 4: Prueba de hipótesis para la diferencia de medias de dos muestras con varianzas conocidas}
+\begin{itemize}
+    \item \textit{Planteamiento del problema:} Se desea evaluar si existe diferencia entre el ahorro promedio por cultivar y por criar animales.
+    \item Hipótesis: \quad $H_{0}: \mu_1 - \mu_2 = 0$ \hspace{2cm} $H_{1}: \mu_1 - \mu_2 \neq 0$
+    \item Nivel de significancia: $\alpha = 0.05$
+    \item Estadístico de Prueba: Z
+\end{itemize}
+
+\begin{tabular}{|m{7cm}|m{7cm}|}
+\hline
+\textbf{Estadístico Empleado} & Z para diferencia de medias con varianzas conocidas \\ \hline
+\textbf{Fórmula del estadístico} & $Z = \frac{(\bar{X}_1 - \bar{X}_2) - 0}{\sqrt{\sigma_1^2/n_1 + \sigma_2^2/n_2}}$ \\ \hline
+\textbf{Nombre Parámetro} & \textbf{Valor} \\ \hline
+Media muestra 1 (cultivar) & 126,937.56 \\ \hline
+Media muestra 2 (criar) & 159,471.37 \\ \hline
+Desviación estándar 1 ($\sigma_1$) & 300,000 \\ \hline
+Desviación estándar 2 ($\sigma_2$) & 500,000 \\ \hline
+Tamaño muestra 1 ($n_1$) & 2,892 \\ \hline
+Tamaño muestra 2 ($n_2$) & 4,080 \\ \hline
+Diferencia de medias & -32,533.81 \\ \hline
+Valor Estadístico & -3.385 \\ \hline
+Valor P & 0.0007 \\ \hline
+\end{tabular}
+
+\begin{itemize}
+    \item Regla de decisión: Rechazar $H_0$ si $|Z| > 1.96$ o si p-valor $< 0.05$
+    \item Decisión: Rechazar $H_0$
+    \item Conclusión: Existe evidencia estadística suficiente para concluir que hay diferencia significativa entre el ahorro promedio por cultivar y por criar animales. El ahorro por criar animales es significativamente mayor que por cultivar.
+\end{itemize}
 
 \section*{Ejercicio 5: Prueba de hipótesis para la diferencia de medias de dos muestras con varianzas iguales y desconocidas}
+\begin{itemize}
+    \item \textit{Planteamiento del problema:} Se desea evaluar si existe diferencia entre el valor promedio de prácticas y el ahorro promedio por cultivar, asumiendo varianzas iguales.
+    \item Hipótesis: \quad $H_{0}: \mu_1 - \mu_2 = 0$ \hspace{2cm} $H_{1}: \mu_1 - \mu_2 \neq 0$
+    \item Nivel de significancia: $\alpha = 0.05$
+    \item Estadístico de Prueba: t (pooled)
+\end{itemize}
+
+\begin{tabular}{|m{7cm}|m{7cm}|}
+\hline
+\textbf{Estadístico Empleado} & t para diferencia de medias con varianzas iguales \\ \hline
+\textbf{Fórmula del estadístico} & $t = \frac{(\bar{X}_1 - \bar{X}_2) - 0}{s_p\sqrt{1/n_1 + 1/n_2}}$ \\ \hline
+\textbf{Nombre Parámetro} & \textbf{Valor} \\ \hline
+Media muestra 1 (prácticas) & 998,708.33 \\ \hline
+Media muestra 2 (cultivar) & 126,937.56 \\ \hline
+Tamaño muestra 1 ($n_1$) & 336 \\ \hline
+Tamaño muestra 2 ($n_2$) & 2,892 \\ \hline
+Grados de libertad (df) & 3,226 \\ \hline
+Varianza combinada ($s_p^2$) & 190,877,666,859 \\ \hline
+Diferencia de medias & 871,770.77 \\ \hline
+Valor Estadístico & 34.620 \\ \hline
+Valor P & $< 0.001$ \\ \hline
+\end{tabular}
+
+\begin{itemize}
+    \item Regla de decisión: Rechazar $H_0$ si $|t| > 1.961$ o si p-valor $< 0.05$
+    \item Decisión: Rechazar $H_0$
+    \item Conclusión: Existe evidencia estadística suficiente para concluir que hay diferencia significativa entre el valor promedio de prácticas y el ahorro promedio por cultivar. El valor de prácticas es significativamente mayor que el ahorro por cultivar.
+\end{itemize}
 
 \section*{Ejercicio 6: Prueba de hipótesis para la diferencia de medias de dos muestras con varianzas desiguales y desconocidas}
+\begin{itemize}
+    \item \textit{Planteamiento del problema:} Se desea evaluar si existe diferencia entre el valor promedio de prácticas y el ahorro promedio por criar animales, sin asumir varianzas iguales.
+    \item Hipótesis: \quad $H_{0}: \mu_1 - \mu_2 = 0$ \hspace{2cm} $H_{1}: \mu_1 - \mu_2 \neq 0$
+    \item Nivel de significancia: $\alpha = 0.05$
+    \item Estadístico de Prueba: t de Welch
+\end{itemize}
+
+\begin{tabular}{|m{7cm}|m{7cm}|}
+\hline
+\textbf{Estadístico Empleado} & t de Welch para diferencia de medias \\ \hline
+\textbf{Fórmula del estadístico} & $t = \frac{(\bar{X}_1 - \bar{X}_2) - 0}{\sqrt{s_1^2/n_1 + s_2^2/n_2}}$ \\ \hline
+\textbf{Nombre Parámetro} & \textbf{Valor} \\ \hline
+Media muestra 1 (prácticas) & 998,708.33 \\ \hline
+Media muestra 2 (criar) & 159,471.37 \\ \hline
+Tamaño muestra 1 ($n_1$) & 336 \\ \hline
+Tamaño muestra 2 ($n_2$) & 4,080 \\ \hline
+Grados de libertad (df) & 373.42 \\ \hline
+Diferencia de medias & 839,236.96 \\ \hline
+Error estándar & 34,867.44 \\ \hline
+Valor Estadístico & 24.069 \\ \hline
+Valor P & $< 0.001$ \\ \hline
+\end{tabular}
+
+\begin{itemize}
+    \item Regla de decisión: Rechazar $H_0$ si $|t| > 1.966$ o si p-valor $< 0.05$
+    \item Decisión: Rechazar $H_0$
+    \item Conclusión: Existe evidencia estadística suficiente para concluir que hay diferencia significativa entre el valor promedio de prácticas y el ahorro promedio por criar animales. El valor de prácticas es significativamente mayor que el ahorro por criar animales.
+\end{itemize}
 
 \section*{Ejercicio 7: Prueba de hipótesis para la diferencia de proporciones de dos muestras}
+\begin{itemize}
+    \item \textit{Planteamiento del problema:} Se desea evaluar si existe diferencia en la proporción de asistencia a reuniones familiares entre grupos de bajo y alto valor de prácticas.
+    \item Hipótesis: \quad $H_{0}: p_1 - p_2 = 0$ \hspace{2cm} $H_{1}: p_1 - p_2 \neq 0$
+    \item Nivel de significancia: $\alpha = 0.05$
+    \item Estadístico de Prueba: Z
+\end{itemize}
+
+\begin{tabular}{|m{7cm}|m{7cm}|}
+\hline
+\textbf{Estadístico Empleado} & Z para diferencia de proporciones \\ \hline
+\textbf{Fórmula del estadístico} & $Z = \frac{(\hat{p}_1 - \hat{p}_2) - 0}{\sqrt{\hat{p}(1-\hat{p})(1/n_1 + 1/n_2)}}$ \\ \hline
+\textbf{Nombre Parámetro} & \textbf{Valor} \\ \hline
+Proporción grupo bajo ($\hat{p}_1$) & 0.0138 \\ \hline
+Proporción grupo alto ($\hat{p}_2$) & 0.0085 \\ \hline
+Tamaño grupo bajo ($n_1$) & 145 \\ \hline
+Tamaño grupo alto ($n_2$) & 118 \\ \hline
+Proporción combinada ($\hat{p}$) & 0.0119 \\ \hline
+Diferencia de proporciones & 0.0053 \\ \hline
+Valor Estadístico & 0.427 \\ \hline
+Valor P & 0.6697 \\ \hline
+\end{tabular}
+
+\begin{itemize}
+    \item Regla de decisión: Rechazar $H_0$ si $|Z| > 1.96$ o si p-valor $< 0.05$
+    \item Decisión: No rechazar $H_0$
+    \item Conclusión: No existe evidencia estadística suficiente para concluir que hay diferencia significativa en la proporción de asistencia a reuniones familiares entre grupos de bajo y alto valor de prácticas.
+\end{itemize}
 
 \section*{Ejercicio 8: Prueba de hipótesis para muestras dependientes}
+\begin{itemize}
+    \item \textit{Planteamiento del problema:} Se desea evaluar si existe diferencia sistemática entre el ahorro por cultivar y por criar animales en las mismas personas.
+    \item Hipótesis: \quad $H_{0}: \mu_d = 0$ \hspace{2cm} $H_{1}: \mu_d \neq 0$
+    \item Nivel de significancia: $\alpha = 0.05$
+    \item Estadístico de Prueba: t pareado
+\end{itemize}
+
+\begin{tabular}{|m{7cm}|m{7cm}|}
+\hline
+\textbf{Estadístico Empleado} & t para muestras pareadas \\ \hline
+\textbf{Fórmula del estadístico} & $t = \frac{\bar{d} - 0}{s_d/\sqrt{n}}$ \\ \hline
+\textbf{Nombre Parámetro} & \textbf{Valor} \\ \hline
+Número de pares (n) & 1,296 \\ \hline
+Grados de libertad (df) & 1,295 \\ \hline
+Media de diferencias ($\bar{d}$) & 9,776.68 \\ \hline
+Desviación estándar de diferencias ($s_d$) & 575,782.40 \\ \hline
+Error estándar de diferencias & 15,993.96 \\ \hline
+Valor Estadístico & 0.611 \\ \hline
+Valor P & 0.5411 \\ \hline
+\end{tabular}
+
+\begin{itemize}
+    \item Regla de decisión: Rechazar $H_0$ si $|t| > 1.962$ o si p-valor $< 0.05$
+    \item Decisión: No rechazar $H_0$
+    \item Conclusión: No existe evidencia estadística suficiente para concluir que hay diferencia sistemática entre el ahorro por cultivar y por criar animales en las mismas personas.
+\end{itemize}
 
 \section*{Ejercicio 9: Prueba de bondad de ajuste}
+\begin{itemize}
+    \item \textit{Planteamiento del problema:} Se desea evaluar si la distribución observada de asistencia a reuniones familiares se ajusta a una distribución uniforme (50\%-50\%).
+    \item Hipótesis: \quad $H_{0}:$ La distribución observada se ajusta a la esperada \hspace{1cm} $H_{1}:$ La distribución observada no se ajusta a la esperada
+    \item Nivel de significancia: $\alpha = 0.05$
+    \item Estadístico de Prueba: $\chi^2$
+\end{itemize}
+
+\begin{tabular}{|m{7cm}|m{7cm}|}
+\hline
+\textbf{Estadístico Empleado} & Chi-cuadrado de bondad de ajuste \\ \hline
+\textbf{Fórmula del estadístico} & $\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$ \\ \hline
+\textbf{Nombre Parámetro} & \textbf{Valor} \\ \hline
+Número de categorías (k) & 2 \\ \hline
+Grados de libertad (df) & 1 \\ \hline
+Frecuencia observada "No" ($O_1$) & 163,423 \\ \hline
+Frecuencia observada "Sí" ($O_2$) & 2,918 \\ \hline
+Frecuencia esperada "No" ($E_1$) & 83,170.5 \\ \hline
+Frecuencia esperada "Sí" ($E_2$) & 83,170.5 \\ \hline
+Valor Estadístico & 154,873.75 \\ \hline
+Valor P & $< 0.001$ \\ \hline
+\end{tabular}
+
+\begin{itemize}
+    \item Regla de decisión: Rechazar $H_0$ si $\chi^2 > 3.841$ o si p-valor $< 0.05$
+    \item Decisión: Rechazar $H_0$
+    \item Conclusión: Existe evidencia estadística suficiente para concluir que la distribución observada de asistencia a reuniones familiares no se ajusta a una distribución uniforme. La proporción real de asistencia (1.75\%) difiere significativamente del 50\% esperado.
+\end{itemize}
 
 \section*{Ejercicio 10: Prueba de independencia}
+\begin{itemize}
+    \item \textit{Planteamiento del problema:} Se desea evaluar si existe asociación entre la asistencia a reuniones familiares y el nivel de valor de prácticas (agrupado en terciles).
+    \item Hipótesis: \quad $H_{0}:$ Las variables son independientes \hspace{2cm} $H_{1}:$ Las variables están asociadas
+    \item Nivel de significancia: $\alpha = 0.05$
+    \item Estadístico de Prueba: $\chi^2$
+\end{itemize}
+
+\begin{tabular}{|m{7cm}|m{7cm}|}
+\hline
+\textbf{Estadístico Empleado} & Chi-cuadrado de independencia \\ \hline
+\textbf{Fórmula del estadístico} & $\chi^2 = \sum \frac{(O_{ij} - E_{ij})^2}{E_{ij}}$ \\ \hline
+\textbf{Nombre Parámetro} & \textbf{Valor} \\ \hline
+Número de filas (r) & 3 \\ \hline
+Número de columnas (c) & 2 \\ \hline
+Grados de libertad (df) & 2 \\ \hline
+Frecuencias observadas & Bajo: 125,0; 2,1 \\ \hline
+& Medio: 101,0; 1,1 \\ \hline
+& Alto: 106,0; 1,1 \\ \hline
+Frecuencias esperadas & Bajo: 125.5, 1.5 \\ \hline
+& Medio: 100.8, 1.2 \\ \hline
+& Alto: 105.7, 1.3 \\ \hline
+Valor Estadístico & 0.257 \\ \hline
+Valor P & 0.8793 \\ \hline
+\end{tabular}
+
+\begin{itemize}
+    \item Regla de decisión: Rechazar $H_0$ si $\chi^2 > 5.991$ o si p-valor $< 0.05$
+    \item Decisión: No rechazar $H_0$
+    \item Conclusión: No existe evidencia estadística suficiente para concluir que hay asociación entre la asistencia a reuniones familiares y el nivel de valor de prácticas. Las variables parecen ser independientes.
+\end{itemize}
 
 \section*{Ejercicio 11: Prueba de signos}
+\begin{itemize}
+    \item \textit{Planteamiento del problema:} Se desea evaluar si existe tendencia sistemática en las diferencias entre rankings de ahorro por cultivar y por criar animales.
+    \item Hipótesis: \quad $H_{0}:$ No hay diferencia sistemática de signos \hspace{1cm} $H_{1}:$ Existe diferencia sistemática de signos
+    \item Nivel de significancia: $\alpha = 0.05$
+    \item Estadístico de Prueba: Prueba de signos
+\end{itemize}
+
+\begin{tabular}{|m{7cm}|m{7cm}|}
+\hline
+\textbf{Estadístico Empleado} & Prueba de signos para muestras pareadas \\ \hline
+\textbf{Fórmula del estadístico} & Estadístico = min(pos, neg) \\ \hline
+\textbf{Nombre Parámetro} & \textbf{Valor} \\ \hline
+Número total de pares (n) & 1,295 \\ \hline
+Diferencias positivas & 679 \\ \hline
+Diferencias negativas & 616 \\ \hline
+Empates & 1 \\ \hline
+Estadístico (min) & 616 \\ \hline
+Valor P & 0.0849 \\ \hline
+\end{tabular}
+
+\begin{itemize}
+    \item Regla de decisión: Rechazar $H_0$ si p-valor $< 0.05$
+    \item Decisión: No rechazar $H_0$
+    \item Conclusión: No existe evidencia estadística suficiente para concluir que hay tendencia sistemática en las diferencias entre rankings de ahorro por cultivar y por criar animales. Las diferencias parecen ser aleatorias.
+\end{itemize}
 
 \end{document}
