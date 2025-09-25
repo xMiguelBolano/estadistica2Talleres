@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.24)  24 SEP 2025 18:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.30)  24 SEP 2025 19:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/Documentos/estadistica2Talleres/Taller 2/Plantilla/main.tex"
-(d:/Documentos/estadistica2Talleres/Taller 2/Plantilla/main.tex
+**"c:/Users/juand/OneDrive/libros/estadistica2taller1/Taller 2/Plantilla/main.tex"
+(c:/Users/juand/OneDrive/libros/estadistica2taller1/Taller 2/Plantilla/main.tex
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
-(C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+L3 programming layer <2025-08-13>
+(F:\miktex\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+(F:\miktex\tex/latex/base\size12.clo
 File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count275
@@ -23,7 +23,7 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-) (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+) (F:\miktex\tex/generic/babel\babel.sty
 Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count283
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2045.
@@ -35,18 +35,18 @@ LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) o
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2078.
 \U@D=\dimen149
 \l@unhyphenated=\language79
- (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+ (F:\miktex\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count284
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(F:\miktex\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+) (F:\miktex\tex/latex/babel-spanish\spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
- (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+ (F:\miktex\tex/generic/babel/locale/es\babel-spanish.tex
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 12.
 )
@@ -59,25 +59,25 @@ Package babel Info: Making > an active character on input line 722.
 ))
 LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 3.
 LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 3.
- (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+ (F:\miktex\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
-) (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (F:\miktex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(F:\miktex\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (F:\miktex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen150
-)) (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (F:\miktex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen151
-) (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (F:\miktex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count286
@@ -127,7 +127,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
-) (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+) (F:\miktex\tex/latex/tools\array.sty
 Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \col@sep=\dimen159
 \ar@mcellbox=\box55
@@ -136,14 +136,14 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \extratabsurround=\skip54
 \backup@length=\skip55
 \ar@cellbox=\box56
-) (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (F:\miktex\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (F:\miktex\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks26
-) (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+) (F:\miktex\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (F:\miktex\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count298
@@ -158,7 +158,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen167
 \Gm@layoutvoffset=\dimen168
 \Gm@dimlist=\toks27
- (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\CENTIC\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+ (F:\miktex\tex/latex/geometry\geometry.cfg)) (F:\miktex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count301
 ) (main.aux
@@ -224,7 +224,7 @@ LaTeX Info: Redefining \% on input line 18.
 
 [1
 
-{C:/Users/CENTIC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/juand/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 [2]
 
@@ -240,27 +240,29 @@ LaTeX Info: Redefining \% on input line 18.
 
 [8]
 
-[9] (main.aux
+[9]
+
+[10] (main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
  ***********
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+L3 programming layer <2025-08-13>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3373 strings out of 468130
- 54950 string characters out of 5430149
- 491209 words of memory out of 5000000
- 32001 multiletter control sequences out of 15000+600000
+ 3374 strings out of 468133
+ 53313 string characters out of 5447547
+ 491211 words of memory out of 5000000
+ 31999 multiletter control sequences out of 15000+600000
  633465 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,13n,65p,747b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/CENTIC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/CENTIC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/CENTIC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/CENTIC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/CENTIC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/CENTIC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/CENTIC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/CENTIC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/CENTIC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/CENTIC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/CENTIC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/CENTIC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (9 pages, 167814 bytes).
+ 57i,13n,65p,763b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<F:/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><F:/miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><F:/miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><F:/miktex/fonts/type1/public/amsfonts/cm/cmmi6.pfb><F:/miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><F:/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><F:/miktex/fonts/type1/public/amsfonts/cm/cmr6.pfb><F:/miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><F:/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><F:/miktex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (10 pages, 170150 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,83 +1,100 @@
 {
+  "z_media_conocida": {
+    "z": 7.5975,
+    "p_value": 3.0198e-14,
+    "crit": 2.1701,
+    "mean": 159471.3723,
+    "se": 7827.8036,
+    "ci": [142484.331, 176458.4137],
+    "decision": "Rechazar H0",
+    "alpha_used": 0.03
+  },
   "z_proporcion": {
     "z": -393.54,
     "p_value": 0,
-    "crit": 1.96,
+    "crit": 1.8119,
     "phat": 0.0175,
     "se": 0.0012,
-    "ci": [0.0169, 0.0182],
-    "decision": "Rechazar H0"
+    "ci": [0.017, 0.0181],
+    "decision": "Rechazar H0",
+    "alpha_used": 0.07
   },
   "t_media": {
     "t": 23.5387,
     "p_value": 0,
-    "crit": 1.9671,
+    "crit": 2.2515,
     "df": 335,
     "mean": 998708.3333,
     "s": 621977.399,
     "se": 33931.6489,
-    "ci": [931962.384, 1065454.2827],
-    "decision": "Rechazar H0"
+    "ci": [922310.4602, 1075106.2064],
+    "decision": "Rechazar H0",
+    "alpha_used": 0.025
   },
   "z_dif_medias": {
     "z": -3.3846,
     "p_value": 0.0007,
-    "crit": 1.96,
+    "crit": 2.0047,
     "mean1": 126937.5647,
     "mean2": 159471.3723,
     "diff": -32533.8076,
     "se": 9612.2236,
-    "ci": [-51373.4196, -13694.1957],
-    "decision": "Rechazar H0"
+    "ci": [-51802.9945, -13264.6208],
+    "decision": "Rechazar H0",
+    "alpha_used": 0.045
   },
   "t_pooled": {
     "t": 34.62,
     "p_value": 0,
-    "crit": 1.9607,
+    "crit": 3.2935,
     "df": 3226,
     "diff": 871770.7687,
     "sp2": 190877666858.6855,
     "se": 25181.1488,
-    "ci": [822398.0999, 921143.4374],
-    "decision": "Rechazar H0"
+    "ci": [788835.515, 954706.0224],
+    "decision": "Rechazar H0",
+    "alpha_used": 0.001
   },
   "t_welch": {
     "t": 24.0694,
     "p_value": 0,
-    "crit": 1.9663,
+    "crit": 2.1784,
     "df": 373.4165,
     "diff": 839236.961,
     "se": 34867.4362,
-    "ci": [770675.8256, 907798.0965],
-    "decision": "Rechazar H0"
+    "ci": [763281.1816, 915192.7404],
+    "decision": "Rechazar H0",
+    "alpha_used": 0.03
   },
   "z_dif_prop": {
     "z": 0.4265,
     "p_value": 0.6697,
-    "crit": 1.96,
+    "crit": 1.8119,
     "p1": 0.0138,
     "p2": 0.0085,
     "diff": 0.0053,
     "p_comb": 0.0119,
     "se": 0.0124,
-    "ci": [-0.0174, 0.0279],
-    "decision": "No rechazar H0"
+    "ci": [-0.0156, 0.0262],
+    "decision": "No rechazar H0",
+    "alpha_used": 0.07
   },
   "t_pareado": {
     "t": 0.6113,
     "p_value": 0.5411,
-    "crit": 1.9618,
+    "crit": 2.244,
     "df": 1295,
     "d_bar": 9776.6821,
     "s_d": 575782.4011,
     "se": 15993.9556,
-    "ci": [-21600.2206, 41153.5848],
-    "decision": "No rechazar H0"
+    "ci": [-26113.9494, 45667.3136],
+    "decision": "No rechazar H0",
+    "alpha_used": 0.025
   },
   "chi2_gof": {
     "chi2": 154873.7535,
     "p_value": 0,
-    "crit": 3.8415,
+    "crit": 4.0186,
     "df": 1,
     "observed": {
       "0": 163423,
@@ -87,7 +104,8 @@
       83170.5,
       83170.5
     ],
-    "decision": "Rechazar H0"
+    "decision": "Rechazar H0",
+    "alpha_used": 0.045
   },
   "chi2_ind": {
     "chi2": 0.2573,
@@ -109,8 +127,9 @@
       1,
       1
     ],
-    "crit": 5.9915,
-    "decision": "No rechazar H0"
+    "crit": 13.8155,
+    "decision": "No rechazar H0",
+    "alpha_used": 0.001
   },
   "signos": {
     "stat": 616,
@@ -119,6 +138,7 @@
     "neg": 616,
     "emp": 1,
     "n": 1295,
-    "decision": "No rechazar H0"
+    "decision": "No rechazar H0",
+    "alpha_used": 0.03
   }
 }
