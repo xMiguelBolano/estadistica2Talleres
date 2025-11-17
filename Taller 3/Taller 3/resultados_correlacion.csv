@@ -1,0 +1,4 @@
+"Variable1","Variable2","Coeficiente_r","Valor_p","Decision","Fuerza","Direccion"
+"Valor mensual por prácticas","Ahorro por cultivar",0.3295,"4.004966e-14","Rechazar H₀","moderada","positiva"
+"Valor mensual por prácticas","Ahorro por criar animales",0.2226,"4.928305e-07","Rechazar H₀","débil","positiva"
+"Ahorro por cultivar","Ahorro por criar animales",0.1344,"2.608807e-03","Rechazar H₀","débil","positiva"

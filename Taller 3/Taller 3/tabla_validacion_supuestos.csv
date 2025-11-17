@@ -1,0 +1,5 @@
+"Supuesto","Prueba","Estadistico","Valor_p","Decision","Cumplimiento"
+"Linealidad","Inspección gráfica","N/A (gráfico)","N/A","Evaluar gráficamente","Evaluar gráficamente"
+"Independencia","Durbin-Watson","1.9726","7.52e-01","No rechazar H₀","Sí"
+"Homocedasticidad","Breusch-Pagan","0.0679","9.67e-01","No rechazar H₀","Sí"
+"Normalidad de errores","Shapiro-Wilk","0.9123","2.03e-16","Rechazar H₀","No"

@@ -1,0 +1,10 @@
+ANÁLISIS DE LA VARIABLE P3101: REUNIONES FAMILIARES
+====================================================================== 
+
+TABLA DE FRECUENCIAS:
+    No     Sí 
+163423   2918 
+
+TABLA DE PROPORCIONES:
+   No    Sí 
+98.25  1.75 

@@ -1,0 +1,45 @@
+RESULTADOS COMPLETOS: ANÁLISIS COMPARATIVO P3101
+====================================================================== 
+
+Variable: Valor mensual por prácticas 
+n (Sí) = 4 , n (No) = 332 
+Media (Sí) = 986250 
+Media (No) = 998858.4 
+Diferencia = -12608.43 
+Prueba: Prueba de Mann-Whitney (U de Wilcoxon) 
+Estadístico = 651 
+Valor-p = 9.478828e-01 
+Decisión: No rechazar H₀ 
+Dirección: sin diferencia 
+Fuerza: sin efecto 
+
+----------------------------------------------------------------------
+
+Variable: Ahorro por cultivar 
+n (Sí) = 355 , n (No) = 2537 
+Media (Sí) = 107085.9 
+Media (No) = 129715.4 
+Diferencia = -22629.47 
+Prueba: Prueba de Mann-Whitney (U de Wilcoxon) 
+Estadístico = 426349 
+Valor-p = 1.030807e-01 
+Decisión: No rechazar H₀ 
+Dirección: sin diferencia 
+Fuerza: sin efecto 
+
+----------------------------------------------------------------------
+
+Variable: Ahorro por criar animales 
+n (Sí) = 420 , n (No) = 3660 
+Media (Sí) = 116109.5 
+Media (No) = 164447.3 
+Diferencia = -48337.8 
+Prueba: Prueba de Mann-Whitney (U de Wilcoxon) 
+Estadístico = 726961 
+Valor-p = 6.814998e-02 
+Decisión: No rechazar H₀ 
+Dirección: sin diferencia 
+Fuerza: sin efecto 
+
+----------------------------------------------------------------------
+

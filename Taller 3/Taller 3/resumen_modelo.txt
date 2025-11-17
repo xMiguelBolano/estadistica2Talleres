@@ -1,0 +1,23 @@
+RESUMEN DEL MODELO DE REGRESIÓN MÚLTIPLE
+============================================================ 
+
+
+Call:
+lm(formula = Y ~ X1 + X2, data = df_reg)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-6969324 -2830873 -2238370  3638124  6436314 
+
+Coefficients:
+                 Estimate    Std. Error t value             Pr(>|t|)    
+(Intercept) 2563461.54703  268708.60414   9.540 < 0.0000000000000002 ***
+X1                0.13992       0.01924   7.271     0.00000000000139 ***
+X2                0.08438       0.01949   4.330     0.00001807601551 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 4031000 on 497 degrees of freedom
+Multiple R-squared:  0.141,	Adjusted R-squared:  0.1375 
+F-statistic: 40.77 on 2 and 497 DF,  p-value: < 0.00000000000000022
+

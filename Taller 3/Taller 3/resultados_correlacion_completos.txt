@@ -1,0 +1,136 @@
+====================================================================== 
+RESULTADOS COMPLETOS DE ANÁLISIS DE CORRELACIÓN
+====================================================================== 
+
+
+ ====================================================================== 
+RELACIÓN 1 : Valor mensual por prácticas vs Ahorro por cultivar 
+====================================================================== 
+
+PLANTEAMIENTO DEL PROBLEMA:
+Se busca determinar si existe una relación lineal entre Valor mensual por prácticas 
+y Ahorro por cultivar en los hogares colombianos.
+
+HIPÓTESIS:
+H₀: ρ = 0 (no hay correlación lineal)
+H₁: ρ ≠ 0 (hay correlación lineal)
+
+PRUEBA DE SIGNIFICANCIA:
+Estadístico de prueba: Prueba t para correlación de Pearson
+Fórmula: t = r * sqrt((n-2)/(1-r²))
+Nivel de significancia: α = 0.05
+
+RESULTADOS:
+Coeficiente de correlación (r): 0.3295 
+Estadístico t: 7.7872 
+Grados de libertad (df): 498 
+Tamaño de muestra (n): 500 
+Valor-p: 4.004966e-14 
+
+REGLA DE DECISIÓN:
+Rechazar H₀ si p-valor < 0.05 o si |t| > t_{α/2, n-2}
+
+DECISIÓN:
+Rechazar H₀ 
+
+INTERPRETACIÓN EN EL CONTEXTO DEL PROBLEMA:
+Con un nivel de significancia de 0.05, la evidencia sugiere que existe una
+correlación positiva moderada (r = 0.3295 ) entre
+Valor mensual por prácticas y Ahorro por cultivar . Esta relación indica que, en promedio,
+los hogares que reportan mayores valores en Valor mensual por prácticas tienden a tener
+también mayores valores en Ahorro por cultivar .
+
+COMENTARIOS SOBRE LOS HALLAZGOS:
+¿Hay evidencia de correlación?: Sí 
+Dirección: positiva 
+Fuerza: moderada 
+Clasificación: Correlación moderada (0.3 ≤ |r| < 0.7)
+
+
+ ====================================================================== 
+RELACIÓN 2 : Valor mensual por prácticas vs Ahorro por criar animales 
+====================================================================== 
+
+PLANTEAMIENTO DEL PROBLEMA:
+Se busca determinar si existe una relación lineal entre Valor mensual por prácticas 
+y Ahorro por criar animales en los hogares colombianos.
+
+HIPÓTESIS:
+H₀: ρ = 0 (no hay correlación lineal)
+H₁: ρ ≠ 0 (hay correlación lineal)
+
+PRUEBA DE SIGNIFICANCIA:
+Estadístico de prueba: Prueba t para correlación de Pearson
+Fórmula: t = r * sqrt((n-2)/(1-r²))
+Nivel de significancia: α = 0.05
+
+RESULTADOS:
+Coeficiente de correlación (r): 0.2226 
+Estadístico t: 5.0962 
+Grados de libertad (df): 498 
+Tamaño de muestra (n): 500 
+Valor-p: 4.928305e-07 
+
+REGLA DE DECISIÓN:
+Rechazar H₀ si p-valor < 0.05 o si |t| > t_{α/2, n-2}
+
+DECISIÓN:
+Rechazar H₀ 
+
+INTERPRETACIÓN EN EL CONTEXTO DEL PROBLEMA:
+Con un nivel de significancia de 0.05, la evidencia sugiere que existe una
+correlación positiva débil (r = 0.2226 ) entre
+Valor mensual por prácticas y Ahorro por criar animales . Esta relación indica que, en promedio,
+los hogares que reportan mayores valores en Valor mensual por prácticas tienden a tener
+también mayores valores en Ahorro por criar animales .
+
+COMENTARIOS SOBRE LOS HALLAZGOS:
+¿Hay evidencia de correlación?: Sí 
+Dirección: positiva 
+Fuerza: débil 
+Clasificación: Correlación débil (0.1 ≤ |r| < 0.3)
+
+
+ ====================================================================== 
+RELACIÓN 3 : Ahorro por cultivar vs Ahorro por criar animales 
+====================================================================== 
+
+PLANTEAMIENTO DEL PROBLEMA:
+Se busca determinar si existe una relación lineal entre Ahorro por cultivar 
+y Ahorro por criar animales en los hogares colombianos.
+
+HIPÓTESIS:
+H₀: ρ = 0 (no hay correlación lineal)
+H₁: ρ ≠ 0 (hay correlación lineal)
+
+PRUEBA DE SIGNIFICANCIA:
+Estadístico de prueba: Prueba t para correlación de Pearson
+Fórmula: t = r * sqrt((n-2)/(1-r²))
+Nivel de significancia: α = 0.05
+
+RESULTADOS:
+Coeficiente de correlación (r): 0.1344 
+Estadístico t: 3.0257 
+Grados de libertad (df): 498 
+Tamaño de muestra (n): 500 
+Valor-p: 2.608807e-03 
+
+REGLA DE DECISIÓN:
+Rechazar H₀ si p-valor < 0.05 o si |t| > t_{α/2, n-2}
+
+DECISIÓN:
+Rechazar H₀ 
+
+INTERPRETACIÓN EN EL CONTEXTO DEL PROBLEMA:
+Con un nivel de significancia de 0.05, la evidencia sugiere que existe una
+correlación positiva débil (r = 0.1344 ) entre
+Ahorro por cultivar y Ahorro por criar animales . Esta relación indica que, en promedio,
+los hogares que reportan mayores valores en Ahorro por cultivar tienden a tener
+también mayores valores en Ahorro por criar animales .
+
+COMENTARIOS SOBRE LOS HALLAZGOS:
+¿Hay evidencia de correlación?: Sí 
+Dirección: positiva 
+Fuerza: débil 
+Clasificación: Correlación débil (0.1 ≤ |r| < 0.3)
+
